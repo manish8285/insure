@@ -1,0 +1,14 @@
+server:
+  port: 8787
+  
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/insura
+    username: admin
+    password: password
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
